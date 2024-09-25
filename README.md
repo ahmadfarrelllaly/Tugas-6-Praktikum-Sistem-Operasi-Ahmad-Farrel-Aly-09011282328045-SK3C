@@ -104,4 +104,40 @@ sebagai berikut :
 $ jobs
 $ find / -print > files 2>/dev/null &
 $ jobs
-![5b](./Tugas6/5bc.png)
+![5b](./Tugas6/5b.png)
+###
+c. Jadikan program ke 1 sebagai foreground, tekan ^Z dan kembalikan program tersebut ke
+background
+$ fg %1
+$ bg
+![5c](./Tugas6/5c.png)
+###
+d. Stop program background dengan utilitas kil
+$ ps x
+$ kill [Nomor PID] 
+![5d](./Tugas6/5d.png)
+![5cd](./Tugas6/5cd.png)
+###
+6. History
+###
+a. Ganti nilai HISTSIZE dari 1000 menjadi 20
+$ HISTSIZE=20
+$ h
+![6a](./Tugas6/6a.png)
+###
+b. Gunakan fasilitas history dengan mengedit instruksi baris ke 5 dari instruksi yang terakhir
+dilakukan
+$ !-5
+![6b](./Tugas6/6b.png)
+###
+c. Ulangi instruksi yang terakhir. Gunakan juga ^P dan ^N untuk bernavigasi pada history bufer
+$ !! 
+![6c](./Tugas6/6c.png)
+###
+d. Ulangi instruksi pada history bufer nomor 150
+$ !150
+![6d](./Tugas6/6d.png)
+###
+e. Ulangi instruksi dengan prefix “ls”
+$ !ls
+![6e](./Tugas6/6e.png)
