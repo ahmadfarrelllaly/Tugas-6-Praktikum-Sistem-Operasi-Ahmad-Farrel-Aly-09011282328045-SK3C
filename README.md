@@ -51,6 +51,7 @@ clear ![3](./Tugas6/3.png)
 ![3-2](./Tugas6/3-2.png)
 # #############
 4. Bash script
+###
 a. Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing :
 p1.sh
 #! /bin/bash
