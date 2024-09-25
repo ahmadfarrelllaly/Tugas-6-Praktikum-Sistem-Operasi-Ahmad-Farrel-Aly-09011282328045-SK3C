@@ -4,6 +4,7 @@
 # Praktikum Sistem Operasi
 
 1. Eksekusi seluruh profile yang ada :
+###
 a. Edit file profile /etc/profile dan tampilkan pesan sebagai berikut : echo “Profile dari /etc/profile” 
  ![1](./Tugas6/1.png)  ![1a-1](./Tugas6/1a-1.png)  ![1a-2](./Tugas6/1a-2.png)
 
